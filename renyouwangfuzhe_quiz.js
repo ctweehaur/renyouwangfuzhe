@@ -3,43 +3,43 @@ const quizQuestions = [
         id: 1,
         text: "文中句子“意其邻人之子”中，“意”字的正确含义是？",
         py: "wén zhāng zhōng jù zǐ yì qí lín rén zhī zǐ zhōng yì zì de zhèng què hán yì shì",
-        en: "What is the correct meaning of 'yì' in the phrase 'yì qí lín rén zhī zǐ'?",
+        en: "What is the meaning of 'yì' in the sentence 'yì qí lín rén zhī zǐ'?",
         options: [
             {
                 text: "心意、心愿",
                 py: "xīn yì xīn yuàn",
-                en: "Intention or wish.",
+                en: "A wish or plan.",
                 correct: false,
-                explanation: "错误。这是名词含义，在句中充当谓语动词时讲不通。",
-                explanationPy: "cuò wù zhè shì míng cí hán yì zài jù zhōng chōng dāng wèi yǔ dòng cí shí jiǎng bù tōng",
-                explanationEn: "Incorrect. This is a noun definition, which fails to function as the main predicate verb in this context."
+                explanation: "错误。这是名词含义，在这里当作动作（动词）来用，所以讲不通。",
+                explanationPy: "cuò wù zhè shì míng cí hán yì zài zhè lǐ dàng zuò dòng zuò dòng cí lái yòng suǒ yǐ jiǎng bù tōng",
+                explanationEn: "Incorrect. This is a noun meaning. It does not work here because we need a action verb."
             },
             {
                 text: "猜疑、怀疑、主观断定",
                 py: "cāi yí huái yí zhǔ guān duàn dìng",
-                en: "To suspect or assume subjectively.",
+                en: "To suspect or guess without proof.",
                 correct: true,
-                explanation: "正确！“意其邻人之子”指的就是在没有任何证据的情况下，主观无理地怀疑邻居的小孩。",
-                explanationPy: "zhèng què yì qí lín rén zhī zǐ zhǐ de jiù zài méi yǒu rèn hé zhèng jù de qíng kuàng xià zhǔ guān wú lǐ de huái yí lín jū de xiǎo hái",
-                explanationEn: "Correct! It functions as a verb meaning to suspect someone without any baseline evidence."
+                explanation: "正确！“意其邻人之子”就是指在没有任何证据的情况下，心里无理地怀疑邻居的小孩。",
+                explanationPy: "zhèng què yì qí lín rén zhī zǐ zhǐ de jiù zài méi yǒu rèn hé zhèng jù de qíng kuàng xià xīn lǐ wú lǐ de huái yí lín jū de xiǎo hái",
+                explanationEn: "Correct! It means to suspect or believe someone did something bad without any real proof."
             },
             {
                 text: "意思、词语的概念",
                 py: "yì si cí yǔ de gài niàn",
-                en: "Meaning or linguistic concept.",
+                en: "The meaning of a word.",
                 correct: false,
-                explanation: "错误。这属于现代汉语的双音节词汇联想，脱离了古文的实际语境。",
-                explanationPy: "cuò wù zhè shǔ yú xiàn dài hàn yǔ de shuāng yīn jié cí huì lián xiǎng tuō lí le gǔ wén de shí jì yǔ jìng",
-                explanationEn: "Incorrect. This stems from modern vocabulary association, completely disregarding classical grammar."
+                explanation: "错误。这属于现代汉语的词语联想，脱离了这篇古文的实际意思。",
+                explanationPy: "cuò wù zhè shǔ yú xiàn dài hàn yǔ de shuāng yīn jié cí huì lián xiǎng tuō lí le zhè piān gǔ wén de shí jì yì si",
+                explanationEn: "Incorrect. This is a modern vocabulary meaning, which does not fit this classical story at all."
             },
             {
                 text: "意图、暗中的计划",
                 py: "yì tú àn zhōng de jì huà",
-                en: "Intent or hidden agenda.",
+                en: "A secret plan or aim.",
                 correct: false,
-                explanation: "错误。词义过于阴暗和复杂，不合故事主人公丢失东西后的单纯心理状态。",
-                explanationPy: "cuò wù cí yì guò yú yīn àn hé fù zá bù hé gù shì zhǔ rén gōng diū shī dōng xī hòu de chān cuì xīn lǐ zhuàng tài",
-                explanationEn: "Incorrect. The meaning is overly complex, failing to match the spontaneous panic of losing property."
+                explanation: "错误。这个词的意思太复杂了，不符合丢了东西后着急的单纯心理。",
+                explanationPy: "cuò wù zhè gè cí de yì si tài fù zá le bù fú hé diū le dōng xī hòu zháo jí de chān cuì xīn lǐ",
+                explanationEn: "Incorrect. This meaning is too complex. It does not match the simple worry of a person losing things."
             }
         ]
     },
@@ -47,43 +47,43 @@ const quizQuestions = [
         id: 2,
         text: "关于“视其行步，窃斧也；颜色，窃斧也”中“颜色”的词义分析，正确的是？",
         py: "guān yú shì qí xíng bù qiè fǔ yě yán sè qiè fǔ yě zhōng yán sè de cí yì fēn xī zhèng què de shì",
-        en: "Which analysis correctly defines the word 'yán sè' in this classical text?",
+        en: "What does the word 'yán sè' mean in this classical story?",
         options: [
             {
                 text: "色彩、红黄蓝等各种五颜六色",
                 py: "sè cǎi hóng huáng lán děng gè zhǒng wǔ yán liù sè",
-                en: "Colors, such as red, yellow, or blue.",
+                en: "Colors, like red, yellow, or blue.",
                 correct: false,
-                explanation: "错误。这是现代汉语的常用核心定义，在古代汉语中，“颜色”是一个典型的古今异义词。",
-                explanationPy: "cuò wù zhè shì xiàn dài hàn yǔ de cháng yòng hé xīn dìng yì zài gǔ dài hàn yǔ zhōng yán sè shì yī gè diǎn xíng de gǔ jīn yì yì cí",
-                explanationEn: "Incorrect. This is the modern definition; in classical Chinese, 'yan se' is a classic ancient-modern shift word."
+                explanation: "错误。这是现代生活中的常用意思，但在古汉语中，“颜色”的意思完全不一样。",
+                explanationPy: "cuò wù zhè shì xiàn dài shēng huó zhōng de cháng yòng yì si dàn zài gǔ hàn yǔ zhōng yán sè de yì si wán quán bù yī yàng",
+                explanationEn: "Incorrect. This is the modern meaning. In old Chinese, 'yan se' means something completely different."
             },
             {
                 text: "面部表情、脸上的神色气色",
                 py: "miàn bù biǎo qíng liǎn shàng de shén sè qì sè",
-                en: "Facial expression or demeanor.",
+                en: "Facial expressions or the look on one's face.",
                 correct: true,
-                explanation: "正确！古代汉语里，“颜”是脸面，“色”是气色。“颜色”连用特指一个人的面部表情与神态。",
-                explanationPy: "zhèng què gǔ dài hàn yǔ lǐ yán shì liǎn miàn sè shì qì sè yán sè lián yòng tè zhǐ yī gè rén de miàn bù biǎo qíng yǔ shén tài",
-                explanationEn: "Correct! In classical lexicon, 'yan' is face and 'se' is color, combined together to mean facial expression."
+                explanation: "正确！在古汉语里，“颜”是指脸面，“色”是指气色，“颜色”连起来特别指一个人的面部表情。",
+                explanationPy: "zhèng què zài gǔ汉语 lǐ yán shì zhǐ liǎn miàn sè shì zhǐ qì sè yán sè lián qǐ lái tè bié zhǐ yī gè rén de miàn bù biǎo qíng",
+                explanationEn: "Correct! In old Chinese, 'yan' means face and 'se' means look. Together, they mean facial expressions."
             },
             {
                 text: "给别人颜色看看，指态度傲慢",
                 py: "gěi bié rén yán sè kàn kàn zhǐ tài dù ào màn",
-                en: "To teach someone a lesson / arrogance.",
+                en: "To show off or be rude to someone.",
                 correct: false,
-                explanation: "错误。这是近代汉语衍生出的熟语口语，完全不符合先秦列子的文风法度。",
-                explanationPy: "cuò wù zhè shì jìn dài hàn yǔ yǎn shēng chū de shú yǔ kǒu yǔ wán quán bù fú hé xiān qín liè zǐ de wén fēng fǎ dù",
-                explanationEn: "Incorrect. This is a recent colloquial idiom, possessing zero baseline compatibility with pre-Qin styles."
+                explanation: "错误。这是近代才出现的现代口语，完全不符合古代列子的文风。",
+                explanationPy: "cuò wù zhè shì jìn dài cái chū xiàn de xiàn dài kǒu yǔ wán quán bù fú hé gǔ dài liè zǐ de wén fēng",
+                explanationEn: "Incorrect. This is a modern informal idiom. It does not fit the ancient style of the writer Liezi."
             },
             {
                 text: "颜料、用来画画和涂色的工具材料",
                 py: "yán liào yòng lái huà huà hé tú sè de gōng jù cái liào",
-                en: "Paints or pigments used for drawing.",
+                en: "Paints or tools used for drawing.",
                 correct: false,
-                explanation: "错误。词义完全脱离了观察邻居小孩一举一动的基本文本逻辑。",
-                explanationPy: "cuò wù cí yì wán quán tuō lí le guān chá lín jū xiǎo hái yī jǔ yī dòng de jī běn wén běn luó jí",
-                explanationEn: "Incorrect. This is wholly disconnected from the premise of observing a child's reactive movements."
+                explanation: "错误。这个意思完全离开了盯着邻居小孩一举一动的具体故事画面。",
+                explanationPy: "cuò wù zhè gè yì si wán quán lí kāi le dīng zhe lín jū xiǎo hái yī jǔ yī dòng de jù tǐ gù shì huà miàn",
+                explanationEn: "Incorrect. This meaning has nothing to do with the story of watching the neighbor kid's movements."
             }
         ]
     },
@@ -91,131 +91,131 @@ const quizQuestions = [
         id: 3,
         text: "文中句子“无为而不窃斧者也”采用了双重否定，这句话的意思是？",
         py: "wén zhāng zhōng jù zǐ wú wéi ér bù qiè fǔ zhě yě cǎi yòng le shuāng chóng fǒu dìng zhè jù huà de yì si shì",
-        en: "The sentence uses a double negative structure. What does it actually mean?",
+        en: "The sentence uses a double negative. What does it actually mean?",
         options: [
             {
                 text: "他什么事都没做，所以不可能偷斧头",
                 py: "tā shén me shì dōu méi zuò suǒ yǐ bù kě néng tōu fǔ tóu",
-                en: "He did nothing, so it was impossible for him to steal the axe.",
+                en: "He did nothing, so he could not steal the axe.",
                 correct: false,
-                explanation: "错误。理解完全反了，双重否定在这里表示极度的肯定强硬。",
-                explanationPy: "cuò wù lǐ jiě wán quán fǎn le shuāng chóng fǒu dìng zài zhè lǐ biǎo shì jí dù de kěn dìng qiáng yìng",
-                explanationEn: "Incorrect. The interpretation is fully inverted; double negatives function as intensive positive statements here."
+                explanation: "错误。理解完全相反了，两个否定词放在一起在这里表示强烈的肯定。",
+                explanationPy: "cuò wù lǐ jiě wán quán xiāng fǎn le liǎng gè fǒu dìng cí fàng zài yī qǐ zài zhè lǐ biǎo shì qiáng liè de kěn dìng",
+                explanationEn: "Incorrect. The meaning is completely opposite. Two negative words together here mean a strong 'yes'."
             },
             {
                 text: "全身上下一举一动、一神一态没有一处不像是一个偷斧头的人",
                 py: "quán shēn xià xià yī jǔ yī dòng yī shén yī tài méi yǒu yī chù bú xiàng shì yī gè tōu fǔ tóu de rén",
-                en: "Every single gesture and expression made him look exactly like an axe-thief.",
+                en: "Every single movement and look made him look exactly like a thief.",
                 correct: true,
-                explanation: "正确！“无为而不”意思是没有任何表现不是，极其有力地渲染了主人公内心对邻居小孩坚不可摧的成见偏见。",
-                explanationPy: "zhèng què wú wéi ér bù yì si shì méi yǒu rèn hé biǎo xiàn bú shì jí qǐ yǒu lì de xuàn rǎn le zhǔ rén gōng nìn xīn duì lín jū xiǎo hái jiān bù kě cuī de chéng jiàn piān jiàn",
-                explanationEn: "Correct! It functions as an intensive affirmative meaning 'every single detail confirmed he was the thief'."
+                explanation: "正确！“无为而不”就是没有任何表现不是。这句话生动地写出了主人心里对邻居小孩有多么大的偏见。",
+                explanationPy: "zhèng què wú wéi ér bù jiù shì méi yǒu rèn hé biǎo xiàn bú shì zhè jù huà shēng dòng de xiě chū le zhǔ rén xīn lǐ duì lín jū xiǎo hái yǒu duō me dà de piān jiàn",
+                explanationEn: "Correct! It means everything he did matched a thief. It shows how strong the owner's bias was against the kid."
             },
             {
                 text: "他偷了斧头之后，什么证据都没有留下",
                 py: "tā tōu le fǔ tóu zhī hòu shén me zhèng jù dōu méi yǒu liú xià",
-                en: "After stealing the axe, he left absolutely no evidence behind.",
+                en: "After stealing the axe, he left no proof behind.",
                 correct: false,
-                explanation: "错误。故事的核心是压根就没发生过偷窃，更谈不上留下证据。",
-                explanationPy: "cuò wù gù shì de hé xīn shì yā gēn jiù méi fā shēng guò tōu qiè gèng tán bú shàng liú xià zhèng jù",
-                explanationEn: "Incorrect. The baseline story is that no theft occurred, rendering hidden trace evidence irrelevant."
+                explanation: "错误。故事的核心是压根就没有发生偷窃，小孩子是完全被冤枉的。",
+                explanationPy: "cuò wù gù shì de hé xīn shì yā gēn jiù méi yǒu fā shēng tōu qiè xiǎo hái zǐ shì wán quán bèi yuān wǎng de",
+                explanationEn: "Incorrect. The main point of the story is that no stealing happened at all. The kid was wrongly blamed."
             },
             {
                 text: "如果他没有偷斧头，他就不会做出这些伪装动作",
                 py: "rú guǒ tā méi yǒu tōu fǔ tóu tā jiù bú huì zuò chū zhè xiē wěi zhuāng dòng zuò",
-                en: "If he hadn't stolen it, he wouldn't have disguised his actions.",
+                en: "If he did not steal it, he would not act this way.",
                 correct: false,
-                explanation: "错误。小孩并没有做任何伪装，纯粹是主人公自己疑心生暗鬼产生的幻觉。",
-                explanationPy: "cuò wù xiǎo hái bìng méi yǒu zuò rèn hé wěi zhuāng chún cuì shì zhǔ rén gōng zì jǐ yí xīn shēng àn guǐ chǎn shēng de huàn jué",
-                explanationEn: "Incorrect. The boy was acting normally; the 'disguise' was a hallucination built out of the owner's paranoia."
+                explanation: "错误。小孩每天都在正常生活，所谓的“假动作”全是丢斧头的人自己乱想出来的幻觉。",
+                explanationPy: "cuò wù xiǎo hái měi tiān dōu zài zhèng cháng shēng huó suǒ wèi de jiǎ dòng zuò quán shì diū fǔ tóu de rén zì jǐ luàn xiǎng chū lái de huàn jué",
+                explanationEn: "Incorrect. The kid was just acting normally. The 'fake acts' were entirely the owner's own wild imagination."
             }
         ]
     },
     {
         id: 4,
-        text: "后来，主人公对邻居小孩的看法发生了天翻地覆的逆转，这种逆转发生是因为？",
-        py: "hòu lái zhǔ rén gōng duì lín jū xiǎo hái de kàn fǎ fā shēng le tiān fān dì fù de nì zhuǎn zhè zhǒng nì zhuǎn fā shēng shì yīn wèi",
-        en: "Later, the owner's evaluation of the boy completely inverted. What triggered this dramatic change?",
+        text: "后来，主人对邻居小孩的看法发生了极大的逆转，这种改变发生是因为？",
+        py: "hòu lái zhǔ rén duì lín jū xiǎo hái de kàn fǎ fā shēng le jí dà de nì zhuǎn zhè zhǒng gǎi biàn fā shēng shì yīn wèi",
+        en: "Later, the owner completely changed his mind about the boy. Why?",
         options: [
             {
                 text: "小孩顶不住压力，主动把斧头还给了他",
                 py: "xiǎo hái dǐng bú zhù yā lì zhǔ dòng bǎ fǔ tóu huán gěi le tā",
-                en: "The boy gave in to pressure and voluntarily returned the axe.",
+                en: "The boy felt too much pressure and gave the axe back.",
                 correct: false,
-                explanation: "错误。小孩子是清白的，根本不存在还斧头的动作路径。",
-                explanationPy: "cuò wù xiǎo hái shì qīng bái de gēn bēn bù cún zài huán fǔ tóu de dòng zuò lù jìng",
-                explanationEn: "Incorrect. The boy was completely innocent, meaning no physical returning of an axe ever took place."
+                explanation: "错误。小孩子是清白的，根本没有拿过斧头，怎么可能还斧头呢。",
+                explanationPy: "cuò wù xiǎo hái zǐ shì qīng bái de gēn bēn méi yǒu ná guò fǔ tóu zěn me kě néng huán fǔ tóu ne",
+                explanationEn: "Incorrect. The kid was innocent and never took the axe, so he could not return it."
             },
             {
-                text: "邻居亲自上门赔礼道歉，并原谅了他的无礼怀疑",
-                py: "lín jū qīn zì shàng mén péi lǐ dào qiàn bìng yuán liàng le tā de wú lǐ huái yí",
-                en: "The neighbor apologized and forgave his groundless suspicion.",
+                text: "邻居亲自上门赔礼道歉，并请求他的原谅",
+                py: "lín jū qīn zì shàng mén péi lǐ dào qiàn bìng qǐng qiú tā de yuán liàng",
+                en: "The neighbor came over to say sorry and ask for his forgiveness.",
                 correct: false,
-                explanation: "错误。邻居全家自始至终都不知道主人公在暗中猜疑他们，一切都是内心戏。",
-                explanationPy: "cuò wù lín jū quán jiā zì shǐ zhì zhōng dōu bù zhī dào zhǔ rén gōng zài àn zhōng cāi yí tā men yī qiè dōu shì nìn xīn xì",
-                explanationEn: "Incorrect. The neighbor family was entirely unaware of the silent suspicion; it was an internal drama."
+                explanation: "错误。邻居全家人从头到尾都不知道主人在暗地里怀疑他们，一切都是主人自己在胡思乱想。",
+                explanationPy: "cuò wù lín jū quán jiā rén cóng tóu dào wěi dōu bù zhī dào zhǔ rén zài àn dì lǐ huái yí tā men yī qiè dōu shì zhǔ rén zì jǐ zài hú sī luàn xiǎng",
+                explanationEn: "Incorrect. The neighbors never knew they were being suspected. It was all inside the owner's own head."
             },
             {
-                text: "主人公在挖掘自家水沟时，自己物理找到了那把丢失的斧头",
-                py: "zhǔ rén gōng zài wā jué zì jiā shuǐ gōu shí zì jǐ wù lǐ zhǎo dào le nà bǎ diū shī de fǔ tóu",
-                en: "The owner dug his own ditch and discovered the lost axe physically himself.",
+                text: "主人在挖自己家的水沟时，意外找到了那把丢失的斧头",
+                py: "zhǔ rén zài wā zì jiā de shuǐ gōu shí yì wài zhǎo dào le nà bǎ diū shī de fǔ tóu",
+                en: "The owner found the missing axe by chance while digging his own ditch.",
                 correct: true,
-                explanation: "正确！“掘其沟而得其斧”是全篇最关键的物理节点，真相大白后他眼中的主观偏见在一瞬间烟消云散。",
-                explanationPy: "zhèng què jué qí gōu ér dé qí fǔ shì quán piān zuì guān jiàn de wù lǐ jié diǎn zhēn xiàng dà bái hòu tā yǎn zhōng de zhǔ guān piān jiàn zài yī shùn jiān yān xiāo yún sàn",
-                explanationEn: "Correct! The text states 'jué qí gōu ér dé qí fǔ', recovering the true evidence and instantly clearing the bias."
+                explanation: "正确！自己找到了斧头，这就是事实证据。证据一出来，他心里的偏见一瞬间就全部消失了。",
+                explanationPy: "zhèng què zì jǐ zhǎo dào le fǔ tóu zhè jiù ... shí shí zhèng jù zhèng jù yī chū lái tā xīn lǐ de piān jiàn yī shùn jiān jiù quán bù xiāo shī le",
+                explanationEn: "Correct! Finding the axe by himself was the real proof. Once the proof appeared, his bias vanished instantly."
             },
             {
-                text: "守卫抓到了真正的盗贼，证明了小孩的清白",
-                py: "shǒu wèi zhuā dào le zhēn zhèng de dào zéi zhèng míng le xiǎo hái de qīng bái",
-                en: "The palace guards caught the true thief, proving the boy's innocence.",
+                text: "真正的强盗被抓到了，证明了邻居小孩是清白的",
+                py: "zhēn zhèng de qiáng dào bèi zhuā dào le zhèng míng le lín jū xiǎo hái shì qīng bái de",
+                en: "The real thief was caught, proving the neighbor boy was innocent.",
                 correct: false,
-                explanation: "错误。斧头是自己掉进水沟里的，并没有任何第三方盗贼的存在。",
-                explanationPy: "cuò wù fǔ tóu shì zì jǐ diào jìn shuǐ gōu lǐ de bìng méi yǒu rèn hé dì sān fāng dào zéi de cún zài",
-                explanationEn: "Incorrect. The axe fell into the ditch accidentally; there was no active criminal thief involved."
+                explanation: "错误。斧头是自己掉进水沟里的，这个故事里从头到尾都没有任何小偷。",
+                explanationPy: "cuò wù fǔ tóu shì zì jǐ diào jìn shuǐ gōu lǐ de zhè gè gù shì lǐ cóng tóu dào wěi dōu méi yǒu rèn hé xiǎo tōu",
+                explanationEn: "Incorrect. The axe just fell into the ditch by itself. There was no thief in this story from beginning to end."
             }
         ]
     },
     {
         id: 5,
-        text: "下列哪一个汉语成语，最适合用来形容这篇故事主人公的心态？",
-        py: "xià liè nǎ yī gè hàn yǔ chéng yǔ zuì shì hé yòng lái xíng róng zhè piān gù shì zhǔ rén gōng de xīn tài",
-        en: "Which idiom best describes the cognitive state of the protagonist in this fable?",
+        text: "下列哪一个汉语成语，最适合用来形容这篇故事中丢斧头的人？",
+        py: "xià liè nǎ yī gè hàn yǔ chéng yǔ zuì shì hé yòng lái xíng róng zhè piān gù shì zhōng diū fǔ tóu de rén",
+        en: "Which Chinese idiom best describes the mind of the owner in this story?",
         options: [
             {
                 text: "守株待兔",
                 py: "shǒu zhū dài tù",
-                en: "To guard a tree stump waiting for rabbits.",
+                en: "To stay by a tree stump waiting for a rabbit.",
                 correct: false,
-                explanation: "错误。这形容的是死守狭隘经验、不知变通的愚蠢（如韩非子故事），与无端猜忌无关。",
-                explanationPy: "cuò wù zhè xíng róng de shì sǐ shǒu xiá ài jīng yàn bù zhī biàn tōng de yú chǔn yú wú duān cāi jì wú guān",
-                explanationEn: "Incorrect. This targets rigid dependency on narrow fluke events, which holds zero connection to paranoia."
+                explanation: "错误。这形容死守狭隘的经验、不知道变通，跟心里无端猜忌、怀疑别人完全没有关系。",
+                explanationPy: "cuò wù zhè xíng róng sǐ shǒu xiá ài de jīng yàn bù zhī biàn tōng gēn xīn lǐ wú duān cāi jì huái yí bié rén wán quán méi yǒu guān xì",
+                explanationEn: "Incorrect. This means waiting foolishly for a lucky chance based on old experience. It has nothing to do with suspecting others."
             },
             {
                 text: "疑心生暗鬼",
                 py: "yí xīn shēng àn guǐ",
-                en: "Paranoia breeds imaginary demons (Paranoid suspicions breed phantom monsters).",
+                en: "A suspicious mind creates imaginary ghosts / Too much worry makes you see things.",
                 correct: true,
-                explanation: "正确！成语完美对应故事主旨：只要内心产生了主观偏见和无端猜忌，就会捕风捉影，看周围的一切都觉得有鬼、不正常。",
-                explanationPy: "zhèng què chéng yǔ wán quán duì yìng gù shì zhǔ zhǐ zhǐ yào nìn xīn chǎn shēng le zhǔ guān piān jiàn hé wú duān cāi jì jiù huì bǔ fēng zhuō yǐng kàn zhōu wéi de yī qiè dōu jué dé yǒu guǐ bú zhèng cháng",
-                explanationEn: "Correct! It reinforces the moral: once a subjective suspicion anchors, one distorts reality to feed that phantom ghost."
+                explanation: "正确！成语完美对齐故事：因为在没有任何证据（如：视其行步、颜色、言语）的情况下先入为主地怀疑别人，看周围的一切就都会觉得不对劲、有鬼。",
+                explanationPy: "zhèng què chéng yǔ wán měi duì qí gù shì yīn wèi zài méi yǒu rèn hé zhèng jù rú shì qí xíng bù yán sè yán yǔ de qíng kuàng xià xiān rù wéi zhǔ de huái yí bié rén kàn zhōu wéi de yī qiè jiù dōu huì jué dé bú duì jìn yǒu guǐ",
+                explanationEn: "Correct! This idiom matches the story perfectly: when you suspect someone without proof (like watching his walk, face, or words), your mind will make everything look wrong or suspicious."
             },
             {
                 text: "饮水思源",
                 py: "yǐn shuǐ sī yuán",
-                en: "When drinking water, think of its source.",
+                en: "When you drink water, think about its source.",
                 correct: false,
-                explanation: "错误。这宣扬的是做人要懂得感恩、不忘本，跟丢斧头的逻辑完全不沾边。",
-                explanationPy: "cuò wù zhè xuān yáng de shì zuò rén yào dǒng dé gǎn ēn bú wàng běn gēn diū fǔ tóu de luó jí wán quán bù zhān biān",
-                explanationEn: "Incorrect. This advocates gratitude and honoring historical heritage, displaying zero relevance here."
+                explanation: "错误。这教导人们做人要懂得感恩、不能忘本，跟丢斧头、怀疑邻居的逻辑完全不沾边。",
+                explanationPy: "cuò wù zhè jiào dǎo rén mǐn zuò rén yào dǒng dé gǎn ēn bù néng wàng běn gēn diū fǔ tóu huái yí lín jū de luó jí wán quán bù zhān biān",
+                explanationEn: "Incorrect. This teaches people to be thankful and remember who helped them. It has zero relation to this story."
             },
             {
                 text: "狐假虎威",
                 py: "hú jiǎ hǔ wēi",
-                en: "The fox borrows the tiger's ferocity.",
+                en: "The fox uses the tiger's power to scare others.",
                 correct: false,
-                explanation: "错误。这形容凭借别人的权势来欺压弱小的狡猾行为，属于风马牛不相及的干扰项。",
-                explanationPy: "cuò wù zhè xíng róng píng jiè bié rén de quán shì lái qī yā ruò xiǎo de jiǎo huá xíng wéi shǔ yú fēng mǎ niú bù xiāng jí de gān rǎo xiàng",
-                explanationEn: "Incorrect. This denotes leveraging an elite's status to terrorize subordinates, carrying zero logical correlation."
+                explanation: "错误。这形容靠着别人的权势来欺负弱小的狡猾坏人，是一个完全不相干的干扰项。",
+                explanationPy: "cuò wù zhè xíng róng kào zhe bié rén de quán shì lái qī fù ruò xiǎo de jiǎo huá huài rén shì yī gè wán quán bù xiāng gān de gān rǎo xiàng",
+                explanationEn: "Incorrect. This means using a powerful person's status to scare or bully others. It is completely irrelevant here."
             }
         ]
     }
