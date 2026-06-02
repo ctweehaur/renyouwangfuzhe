@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1. 网页标签的标题 -->
     <title>互动古文：人有亡斧者 · 列子 (中英双语·词解版)</title>
     
+    <!-- 引入独立CSS (保持不变) -->
     <link rel="stylesheet" href="classic_style.css">
     
+    <!-- 2. 引入的 5 个 JS 数据包文件名 -->
     <script src="renyouwangfuzhe_text.js"></script>
     <script src="renyouwangfuzhe_translation.js"></script>
     <script src="renyouwangfuzhe_analysis.js"></script>
@@ -17,11 +20,14 @@
  
 <div class="app-container">
     <div class="header-section">
+        <!-- 3. 网页顶部的文章大标题 -->
         <h1 class="title">人有亡斧者</h1>
+        <!-- 4. 作者与出处信息 -->
         <p class="author">《列子·说符》 / 列御寇 (战国)</p>
     </div>
     
     <div class="poem-container">
+        <!-- 古文原文动态容器 -->
         <div id="dynamic-poem-container"></div>
         
         <div class="translation-block" id="translationBlock">
@@ -58,7 +64,7 @@
 <script>
     let originalQuizQuestions = [];
 
-    // 【终极重构注音引擎】：加入最全的标点与特殊符号过滤（破折号、箭头、引号、括号），让它们自动不消耗拼音！
+    // 【网页核心注音引擎重构】：将英文字母提升至标点符号级拦截分支！
   function alignText(zh, py) {
     if (!zh) return '';
     const chars = zh.trim().split('');
@@ -66,8 +72,10 @@
     let pIdx = 0;
     let html = '';
     for (let c of chars) {
-        // 【核心精准修复】：正则表达式末尾新增 \/，让半角斜杠自动判定为标点，绝不吞噬和位移拼音！
-        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…\/]/.test(c)) {
+        // 🎯【核心大重构】：在正则表达式中加入所有大小写英文字母和带音调的拼音字符。
+        // 当引擎遇到这些字符时，直接进入此分支，渲染字母但【不增加 pIdx 指针】！
+        // 从而实现英文字上面自动彻底空掉拼音、且不破坏后面汉字咬合的终极效果！
+        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…\/a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùüǖǘǚǜ]/.test(c)) {
             html += `<span class="punctuation">${c}</span>`;
         } else {
             const p = pys[pIdx] || '';
@@ -78,7 +86,7 @@
     return html;
 }
 
-// 同样把这个也一起改掉，确保万无一失
+// 同样在带有前缀的选项渲染函数中，同步应用这个英文字母拦截留空逻辑
 function alignTextWithPrefix(prefix, zh, py) {
     if (!zh) return '';
     const chars = zh.trim().split('');
@@ -87,8 +95,8 @@ function alignTextWithPrefix(prefix, zh, py) {
     html += `<span class="char-box" style="margin-right: 8px !important;"><span class="py-text">&nbsp;</span><span class="zh-text" style="font-weight: bold; color: #1e293b;">${prefix}</span></span>`;
     let pIdx = 0;
     for (let c of chars) {
-        // 【核心精准修复】：同步追加 \/ 拦截机制
-        if (/[Epic，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…\/]/.test(c)) {
+        // 🎯【核心大重构】：这里同步拦截所有英文字母，使其自动留空且不消耗拼音索引
+        if (/[Epic，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…\/a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùüǖǘǚǜ]/.test(c)) {
             html += `<span class="punctuation">${c}</span>`;
         } else {
             const p = pys[pIdx] || '';
@@ -190,6 +198,7 @@ function alignTextWithPrefix(prefix, zh, py) {
                         <div class="strategy-en">${item.sEn}</div>
                     </div>
                     <button class="sa-answer-btn" onclick="toggleAnswer(this)">📖 点击查看标准答案</button>
+                    <div class="action-group" style="margin-top: 0px !important;"></div>
                     <div class="sa-answer-box">
                         <div class="sa-model-answer">
                             <div class="sa-badge">标准答案</div>
