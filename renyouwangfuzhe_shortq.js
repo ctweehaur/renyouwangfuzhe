@@ -79,7 +79,7 @@ const shortQData = [
         qEn: "Connecting to Malaysia's multi-ethnic and cultural social landscape, what does 'Wang Fu Yi Lin' teach us about preventing biases from dividing communities?",
         sZh: [
             "1. 将故事主旨拔高并应用到大马社会：在大马这个由巫、华、印等多民族和谐共处的多元社会中，族群间的沟通极易受到固有刻板印象（Stereotype）或片面传闻的成见绑架（就像看邻子窃斧）。",
-            "2. 提出建设性实用做人道理：我们必须在跨族群交往中保持理性和包容，多通过直接、坦诚的文化交流与实际接触去认识对方，具体问题具体看待，实事求是，绝不能戴着有色眼镜去标签化、怀疑其他族群的朋友，这样才能避免“疑心生暗鬼”引发的族群隔阂，共同守护国家和谐（必悖）。"
+            "2. 提出建设性实用做人道理：我们必须在跨族群交往中保持理性和包容，多通过直接、坦诚的文化交流与实际接触去认识对方，具体问题具体看待，实事求是，绝不能戴着有色眼镜去标签化、怀疑其他族群的朋友，这样才能避免“疑心生暗鬼”引发的族群隔阂，共同守护国家和谐。"
         ],
         sPy: [
             "jiāng gù shì zhǔ zhǐ bá gāo bìng yìng yòng dào dà mǎ shè huì zài dà mǎ zhè gè yóu wū huá yìn děng duō mín zú hé xié gòng chǔ de duō yuán shè huì zhōng zú qún jiān de gōu tōng jí yì shòu dào gù yǒu kè bǎn yìn xiàng huò piàn miàn chuán wén de chéng jiàn bǎng jià xiàng kàn lín zǐ qiè fǔ",
